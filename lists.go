@@ -41,7 +41,19 @@ func main() {
 			"A First Product",
 			12.99,
 		},
+		Product{
+
+			"second-product",
+			"A Secod Product",
+			12.99,
+		},
 	}
+	newProduct := Product{
+		"third-product",
+		"A Third Product",
+		15.99,
+	}
+	products = append(products, newProduct)
 	fmt.Println(products)
 }
 
